@@ -99,7 +99,7 @@ if st.button("🎯 Sample Likely to Subscribe"):
     else:
         st.error("⚠️ The client is **NOT likely** to subscribe.")
 
-    st.write(f"**Probability:** {proba:.4f}")
+    
     st.subheader("Why this sample is likely to subscribe:")
     st.markdown("""
     - **Job:** Management → higher income & stability  
