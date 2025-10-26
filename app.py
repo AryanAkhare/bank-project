@@ -77,7 +77,7 @@ if st.button("🔍 Predict"):
         else:
             st.error("⚠️ The client is **NOT likely** to subscribe.")
 
-        st.write(f"**Probability of subscribing:** {proba:.4f}")
+        
     except Exception as e:
         st.error(f"Prediction error: {e}")
 
